@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-01-02T21:49:56.984638" rpa="false" schemaversion="5">
+<suite id="s1" name="Lab08" source="C:\Users\JJay\SofewareEn\TestAutomationLab\Lab08.robot">
+<test id="s1-t1" name="Register Fail Invalid Phone Number" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:49:57.128586" level="INFO">Opening browser 'chrome' to base url 'http://localhost:7272/StarterFiles/Registration.html'.</msg>
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-02T21:49:57.128386" elapsed="1.069416"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-02T21:50:00.198988" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-02T21:49:58.198131" elapsed="2.000970"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.199816" level="INFO">Typing text 'Somyod' into text field 'id=firstname'.</msg>
+<arg>id=firstname</arg>
+<arg>Somyod</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.199493" elapsed="0.063922"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.263907" level="INFO">Typing text 'Sodsai' into text field 'id=lastname'.</msg>
+<arg>id=lastname</arg>
+<arg>Sodsai</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.263669" elapsed="0.040257"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.304405" level="INFO">Typing text 'CS KKU' into text field 'id=organization'.</msg>
+<arg>id=organization</arg>
+<arg>CS KKU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.304192" elapsed="0.046503"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.351286" level="INFO">Typing text 'somyod@kkumail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>somyod@kkumail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.350972" elapsed="0.043507"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.394961" level="INFO">Typing text '1234' into text field 'id=phone'.</msg>
+<arg>id=phone</arg>
+<arg>1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.394749" elapsed="0.038583"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:00.433818" level="INFO">Clicking button 'id=registerButton'.</msg>
+<arg>id=registerButton</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.433594" elapsed="0.038557"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-02T21:50:02.473101" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-02T21:50:00.472478" elapsed="2.000723"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:02.477101" level="INFO">Page title is 'Registration'.</msg>
+<arg>Registration</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-01-02T21:50:02.473597" elapsed="0.003600"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-01-02T21:50:02.484126" level="INFO">Current page contains text 'Please enter a valid phone number!!'.</msg>
+<arg>Please enter a valid phone number!!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-01-02T21:50:02.477556" elapsed="0.006625"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-02T21:50:02.484421" elapsed="2.062393"/>
+</kw>
+<status status="PASS" start="2026-01-02T21:49:57.127677" elapsed="7.419441"/>
+</test>
+<status status="PASS" start="2026-01-02T21:49:56.985660" elapsed="7.562189"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Lab08" id="s1" pass="1" fail="0" skip="0">Lab08</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
